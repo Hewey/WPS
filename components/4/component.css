@@ -3,6 +3,85 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+html {
+	font-size: 62.5%;
+	font-family: 'Lato', sans-serif;
+}
 
-/* HEADER ======================================== */
+footer {
+	background-color: #333333;
+	padding: 50px 5px 74px 5px;
+}
+
+footer::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+section {
+	width: calc(100%/4);
+	float: left;
+}
+
+h4 {
+	color: white;
+	font-size: 1.4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+li {
+	color: rgba(255, 255, 255, .6);
+	font-size: 1.2rem;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+#follow li {
+	color: white;
+	display: inline-block;
+}
+
+#follow li a {
+	display: block;
+	width: 4rem;
+	height: 4rem;
+	text-indent: -9999px;
+}
+
+a[href*=Facebook] {
+	background: url("facebook.png") no-repeat;
+
+}
+
+a[href*=Google] {
+	background: url("google.png") no-repeat;
+}
+
+a[href*=RSS] {
+	background: url("rss.png") no-repeat;
+}
+
+a[href*=Pinterest] {
+	background: url("pinterest.png") no-repeat;
+}
+
+a[href*=Linkedin] {
+	background: url("linkedin.png") no-repeat;
+}
+
+#support ul, #about ul {
+	padding-left: 15px;
+}
+
+#support li, #about li {
+	list-style: disc;
+}

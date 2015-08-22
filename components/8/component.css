@@ -3,6 +3,43 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
 
-/* HEADER ======================================== */
+html {
+	font-size: 62.5%;
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	background-color: #eaebe7;
+}
+
+section	{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+form {
+	font-size: 1.5rem;
+	line-height: 55px;
+	margin: 5px;
+}
+
+form input[type=text] {
+	padding-left: 15px;
+}
+
+form textarea {
+	margin-top: 5px;
+	padding-left: 15px;
+	width: 63.5%;
+}
+
+form input[type=button] {
+	color: #f5c65b;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 15px 50px;
+	border: 1px solid #c4c5c3;
+	border-radius: 10px;
+	background-color: transparent;
+}

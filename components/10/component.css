@@ -3,6 +3,72 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+html {
+	font-size: 62.5%;
+	font-family: 'Roboto Slab', serif;
+}
 
-/* HEADER ======================================== */
+body {
+	background: url("confectionary.png");
+}
+
+section {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+section::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+h1 { 
+	color: #5e5453;
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 5px;
+}
+
+h1::before {
+	content: "";
+	display: inline-block;
+	border-top: 1px solid rgba(0,0,0, .2);
+	width: 10%;
+	padding-bottom: .7%;
+}
+
+h1::after {
+	content: "";
+	display: inline-block;
+	border-top: 1px solid rgba(0,0,0, .2);
+	width: 10%;
+	padding-bottom: .7%;
+}
+
+img {
+	position: relative;
+	width: 150px;
+	height: 150px;
+}
+
+article {
+	float: left;
+	width: calc(100%/4 -2rem);
+	margin: 1rem 2rem 0 6rem;
+	border: 1px solid #cccccc;
+	background-color: white;
+	padding: 5px;
+}
+
+
+p {
+	position: absolute;
+	color: white;
+	font-size: 2rem;
+	background-color: #f99e45;
+	height: 75px;
+	width: 75px;
+	padding: 25px 0px 0px 8px;
+	z-index: 1;
+}

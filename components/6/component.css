@@ -3,6 +3,144 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+html {
+	font-size: 62.5%;
+	font-family: 'Lato', sans-serif;
+}
 
-/* HEADER ======================================== */
+body {
+	background: url("whitediamond.png")
+}
+
+section {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+section::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+article {
+	float: left;
+	width: calc(100%/4 - 5rem);
+	padding-top: 25rem;
+	margin: 0 1rem;
+}
+
+
+#order {
+	height: 400px;
+	background: url("order.jpg") no-repeat;
+	background-size: 100%;
+}
+
+
+#gta {
+	height: 400px;
+	background: url("GTAV.jpg") no-repeat;
+	background-size: 100%;
+}
+
+#ghost {
+	height: 400px;
+	background: url("ghost.jpg") no-repeat;
+	background-size: 100%;
+}
+
+#light {
+	height: 400px;
+	background: url("light.jpg") no-repeat;
+	background-size: 100%;
+}
+
+h2 {
+	color: white;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 0px 0px 10px 20px;
+}
+
+p {
+	font-size: 1.5rem;
+	color: rgba(255, 255, 255, .3);
+	padding-left: 20px;
+}
+
+#order p:last-of-type {
+	color: white;
+	background-color: #3598db;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	bottom: -53%;
+}
+
+#gta p:last-of-type {
+	color: white;
+	background-color: #97ca2d;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	bottom: -53%;
+}
+
+#ghost p:last-of-type {
+	color: white;
+	background-color: #e84c3d;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	bottom: -33%;
+}
+
+#light p:last-of-type {
+	color: white;
+	background-color: #f1b33c;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	bottom: -53%;
+}
+
+ article a {
+	display: block; 
+	text-indent: -9999px;
+	width: 5rem;
+	height: 5rem;
+}
+
+#order a[href*=more] {
+	position: absolute;
+	top: 10%;
+	left: 28%;
+	background: url("more.png") no-repeat;
+	background-size: 5rem;
+}
+
+#gta a[href*=more] {
+	position: absolute;
+	top: 10%;
+	left: 40%;
+	background: url("more.png") no-repeat;
+	background-size: 5rem;
+}
+
+#ghost a[href*=more] {
+	position: absolute;
+	top: 10%;
+	left: 51%;
+	background: url("more.png") no-repeat;
+	background-size: 5rem;
+}
+
+#light a[href*=more] {
+	position: absolute;
+	top: 10%;
+	left: 63%;
+	background: url("more.png") no-repeat;
+	background-size: 5rem;
+}

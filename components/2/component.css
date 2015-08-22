@@ -3,6 +3,66 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+html {
+font-family: 'Lato', sans-serif;
+font-size: 62.5%;
+}
 
-/* HEADER ======================================== */
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+section {
+	background-color: #e95744;
+}
+
+section::after {
+	content: "";
+	display: table;
+	clear: both;
+	width: 100%;
+	border-top: 5px dashed #002934;
+	padding-bottom: 5px;
+}
+
+article {
+	float: left;
+	width: calc(100%/3);
+	padding: 75px 5px 50px 5px;
+}
+
+#members {
+	background: url("user.jpg") no-repeat center top;
+}
+
+#communication {
+	background: url("communication.jpg") no-repeat center top;
+}
+
+#work {
+	background: url("work.jpg") no-repeat center top;
+}
+
+h2 {
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	font-size: 2.0rem;
+	color: white;
+	padding: 5px 0;
+}
+
+p {
+	text-align: center;
+	color: white;
+	padding: 5px 0;
+	line-height: 1.5rem;
+}
+
+
+a {
+	display: block;
+	text-indent: -9999px;
+	background: url("link.jpg") no-repeat center;
+	padding: 10px;
+}

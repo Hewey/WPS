@@ -3,6 +3,63 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+html {
+	font-size: 62.5%;
+	font-family: 'Lato', sans-serif;
+	background-color: #0e0e0e;
+}
 
-/* HEADER ======================================== */
+section{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+article {
+	height: 441px;
+	background: url("buildings2.jpg") no-repeat;
+	background-size: 100%;
+	margin-bottom: 10px;
+}
+
+h1 {
+	font-size: 6rem;
+	color: white;
+	font-weight: bold;
+	padding: 25px;
+	white-space: pre-line;
+}
+
+span {
+	color: #f7332d;
+}
+
+p {
+	font-size: 1.5rem;
+	color: rgba(255, 255, 255, .7);
+	padding-left: 30px;
+	margin-bottom: 25px;
+}
+
+a {
+	display: inline-block;
+}
+
+a[href*=more] {
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: white;
+	margin-left: 30px;
+	padding: 10px 30px;
+	background-color: #f33434;
+	border-radius: 3px;
+}
+
+a[href*=join] {
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: white;
+	padding: 10px 40px;
+	border: 1px solid rgba(255, 255, 255, .5);
+	background-color: rgba(255, 255, 255, .1);
+	border-radius: 3px;
+}

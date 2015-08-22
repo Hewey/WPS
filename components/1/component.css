@@ -3,6 +3,64 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+html {
+	font-size: 62.5%;
+	font-family: 'Lato', sans-serif;
+}
 
-/* HEADER ======================================== */
+header {
+	background: url("space.jpg") no-repeat;
+	background-size: 100%;
+	/* Photo Credit: <a href="https://www.flickr.com/photos/68069991@N00/6249991602/">Alejandro Amador</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">cc</a> */
+}
+
+article {
+	width: 1500px;
+	height: 1000px;
+	margin: 0 auto;
+	padding-top: 150px;
+	background-color: rgba(255, 255, 255, .2);
+
+}
+
+h1 {
+	font-size: 2.5rem;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+h2 {
+	font-size: 3.5rem;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 60px;
+}
+
+h3 {
+	font-size: 5rem;
+	color: #61fcf6;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+p {
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.countdown-time {
+	font-size: 3.3rem;
+	margin-top: 75px;
+	word-spacing: 30px;
+}
+
+.countdown-day {
+	font-size: 1rem;
+	word-spacing: 25px;
+}

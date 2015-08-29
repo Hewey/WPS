@@ -15,8 +15,8 @@ header {
 }
 
 article {
-	width: 1500px;
-	height: 1000px;
+	width: 75%;
+	height: 65rem;
 	margin: 0 auto;
 	padding-top: 150px;
 	background-color: rgba(255, 255, 255, .2);
@@ -58,9 +58,12 @@ p {
 	font-size: 3.3rem;
 	margin-top: 75px;
 	word-spacing: 30px;
+	padding-left: 5px;
 }
 
 .countdown-day {
 	font-size: 1rem;
-	word-spacing: 25px;
+	word-spacing: 35px;
+	padding-left: 47px;
+	padding-right: 30px;
 }

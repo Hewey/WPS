@@ -50,8 +50,16 @@ a[href*=more] {
 	color: white;
 	margin-left: 30px;
 	padding: 10px 30px;
+	border: 1px solid transparent;
 	background-color: #f33434;
 	border-radius: 3px;
+	-webkit-transition: .75s;
+	transition: .75s;
+}
+
+a[href*=more]:hover {
+	border: 1px solid rgba(255, 255, 255, .5);
+	background-color: rgba(255, 255, 255, .1);
 }
 
 a[href*=join] {
@@ -62,4 +70,41 @@ a[href*=join] {
 	border: 1px solid rgba(255, 255, 255, .5);
 	background-color: rgba(255, 255, 255, .1);
 	border-radius: 3px;
+	-webkit-transition: .75s;
+	transition: .75s;
+}
+
+a[href*=join]:hover {
+	border: 1px solid transparent;
+	background-color: #f33434;
+}
+
+ul {
+	margin: 150px 0 0 30px;
+}
+
+li {
+	display: inline-block;
+	list-style: none;
+	padding: 0 2px;
+}
+
+li a{
+	display: block;
+	width: 5px;
+	height: 5px;
+	padding: 5px;
+	border: solid 1px white;
+	border-radius: 50%;
+	text-indent: -9999px;
+	-webkit-transition: .75s;
+	transition: .75s;
+}
+
+li a:hover {
+	background: white;
+}
+
+li a:active {
+	background: white;
 }

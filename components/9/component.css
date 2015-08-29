@@ -79,4 +79,10 @@ form input[type=button] {
 	color: white;
 	text-transform: uppercase;
 	background-color: #353942;
+	-webkit-transition: .75s;
+	transition: .75s;
+}
+
+form input[type=button]:hover {
+	background-color: #043412;
 }

@@ -10,19 +10,26 @@ body{
 	background-color: #FFDCB9;
 }
 
-#wrapper {
+section {
 	max-width: 960px;
 	margin: 0 auto;
 }
 .button{
-	padding: 5px;
-	border-radius: 10px;
+	font-size: 1rem;
+	text-transform: uppercase;
 	color: white;
-	background-color: #FF3D29;
-	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #f33434;
+	border-radius: 3px;
+	-webkit-transition: .75s;
+	transition: .75s;
 }
 .button:hover {
-	background-color: #FF7368;
+	background-color: rgba(243, 52, 52, .5);
+}
+
+a {
+	text-decoration: none;
 }
 
 /* HEADER SPECIFIC ======================================== */
@@ -36,7 +43,7 @@ h1{
 	margin: 0;
 	padding: 0;
 }
-#header p{
+header p{
 	margin: 0;
 }
 /* ABOUT SPECIFIC ======================================== */
